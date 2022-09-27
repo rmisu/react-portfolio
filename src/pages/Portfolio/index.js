@@ -9,9 +9,8 @@ function Portfolio(props) {
     <div className='card'>
       <h1>Project List</h1>
       
-     <p >{currentSection.url} </p>
+     <p >Project {currentSection.url} </p>
    
-     
       <ProjectList project={currentSection.name} />
     </div>   
     </section>
