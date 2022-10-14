@@ -286,6 +286,15 @@ a {
   margin-right: -2px;
 }
 
+.prof-img {
+  background-color: var(--parent);
+  padding: 10px;
+}
+
+.project {
+  padding: 40px;
+}
+
 .navActive {
   color: var(--secondary);
 }

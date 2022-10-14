@@ -7,7 +7,8 @@ const Modal = ({ onClose, currentPhoto }) => {
     <div className="modalBackdrop">
       <div className="modalContainer">
         <h3 className="modalTitle">{name} </h3>
-        <a href={url} target="blank"> </a>
+        <a href={url} target="_blank" rel="noopener noreferrer">Link</a>
+        <br></br>
         <button type="button" onClick={onClose}>
           Close this modal
         </button>

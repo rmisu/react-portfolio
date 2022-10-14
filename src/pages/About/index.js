@@ -2,9 +2,9 @@ import React from 'react';
 import coverPicture from "../../assets/cover/cover.jpg";
 function About() {
   return (
-    <section className="my-5">
+    <section>
       <div className="card">
-      <img src={coverPicture} className="my-2" style={{ width: "15%" }} alt="cover" />
+      <img src={coverPicture} className="prof-img" style={{ width: "100%" }} alt="cover" />
       <h1 className="my-2">About Me</h1>
         <p>
           Welcome to my online portfolio! My name is Ryan Rogers and I am a junior developer capable in full stack development. 

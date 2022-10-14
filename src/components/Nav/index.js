@@ -6,6 +6,7 @@ function Nav(props) {
     tabs = [],
     setCurrentTab,
     currentTab,
+    contactSelected,
   } = props;
 
   useEffect(() => {
@@ -18,7 +19,7 @@ function Nav(props) {
       <nav>
         <ul className="flex-row">
           {tabs.map((tab) => (
-            <li className={`mx-1 ${currentTab.name === tab.name && `navActive`}`}
+            <li className={`mx-1 ${currentTab.name === tab.name && !contactSelected && `navActive`}`}
               key={tab.name}>
               <span onClick={() => {
                 setCurrentTab(tab);

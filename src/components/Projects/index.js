@@ -8,7 +8,13 @@ const ProjectList = ({ project }) => {
   const [photos] = useState([
     {
       name: 'Text-Editor',
+      project: 'Portfolio',
       url: 'https://secure-tor-11713.herokuapp.com/'
+    },
+    {
+      name: 'Match-Gamers',
+      project: 'Portfolio',
+      url: 'https://github.com/rmisu/match-gamers'
     }
   ]);
 
