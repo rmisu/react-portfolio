@@ -3,15 +3,15 @@ import ProjectList from '../../components/Projects';
 
 
 function Portfolio(props) {
-  const { currentSection } = props;
+  const { currentTab } = props;
   return (
     <section>
     <div className='card'>
       <h1>Project List</h1>
       
-     <p >Project {currentSection.url} </p>
+     <p >Project {currentTab.url} </p>
    
-      <ProjectList project={currentSection.name} />
+      <ProjectList project={currentTab.name} />
     </div>   
     </section>
   );

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Modal from '../Modal';
 
-const ProjectList = ({ section }) => {
+const ProjectList = ({ project }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentPhoto, setCurrentPhoto] = useState();
 
@@ -12,7 +12,7 @@ const ProjectList = ({ section }) => {
     }
   ]);
 
-  const currentPhotos = photos.filter(photo => photo.section === section);
+  const currentPhotos = photos.filter(photo => photo.project === project);
 
   const toggleModal = (image, i) => {
     setCurrentPhoto({ ...image, index: i });
