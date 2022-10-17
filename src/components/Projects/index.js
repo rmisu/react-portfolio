@@ -15,6 +15,11 @@ const ProjectList = ({ project }) => {
       name: 'Match-Gamers',
       project: 'Portfolio',
       url: 'https://github.com/rmisu/match-gamers'
+    },
+    {
+      name: 'Pick-Up',
+      project: 'Portfolio',
+      url: 'https://pick-up-event.herokuapp.com/'
     }
   ]);
 
