@@ -20,7 +20,12 @@ const ProjectList = ({ project }) => {
       name: 'Pick-Up',
       project: 'Portfolio',
       url: 'https://pick-up-event.herokuapp.com/'
-    }
+    },
+    {
+      name: 'Marvelous Writing Prompt',
+      project: 'Portfolio',
+      url: 'https://kaylab78.github.io/marvel-story-generator/'
+    },
   ]);
 
   const currentPhotos = photos.filter(photo => photo.project === project);
